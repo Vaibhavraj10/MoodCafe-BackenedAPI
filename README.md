@@ -24,4 +24,4 @@ Then the user can make the requests for authenticating the email ID.
 [API documentation can be found here!](https://documenter.getpostman.com/view/9038300/SVtR3WgW?version=latest)
 
 > :warning: You need to add your mailgun credentials in the api/config/mailer.js file.
-> If you are on a free plan in mailgun, then you need to authenticate the user email id, before sending them email.
+> If your mailgun account is subscribed to a free plan, then you need to authenticate the user email id, before sending them email.
