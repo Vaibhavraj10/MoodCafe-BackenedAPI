@@ -8,13 +8,6 @@ var TaskSchema = new Schema({
     type: String,
     required: 'enter the email'
   },
-  /*status: {
-    type: [{
-      type: String,
-      enum: ['pending', 'ongoing', 'completed']
-    }],
-    default: ['pending']
-  },*/
   secretToken: String,
   active: Boolean
 
